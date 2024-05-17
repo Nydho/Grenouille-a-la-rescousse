@@ -50,8 +50,8 @@ public class PlayerMovement : MonoBehaviour
         Flip(rb.velocity.x);
 
         float characterVelocity = Mathf.Abs(rb.velocity.x);
-        animator.SetFloat("Speed", characterVelocity);
-        animator.SetBool("isClimbing", isClimbing);
+        //animator.SetFloat("Speed", characterVelocity);
+        //animator.SetBool("isClimbing", isClimbing);
     }
 
     void FixedUpdate()
